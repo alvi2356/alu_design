@@ -1,0 +1,363 @@
+<?xml version='1.0' encoding='utf-8'?>
+<ns0:project xmlns:ns0="http://www.xilinx.com/XMLSchema">
+  <ns0:header>
+    
+    
+    
+    
+    
+    
+    
+    
+  </ns0:header>
+  <ns0:version ns0:ise_version="14.7" ns0:schema_version="2" />
+  <ns0:files>
+    <ns0:file ns0:name="reg_8bit.vhd" ns0:type="FILE_VHDL">
+      <ns0:association ns0:name="BehavioralSimulation" ns0:seqID="1" />
+      <ns0:association ns0:name="Implementation" ns0:seqID="109" />
+    </ns0:file>
+    <ns0:file ns0:name="reg_8bit_tb.vhd" ns0:type="FILE_VHDL">
+      <ns0:association ns0:name="BehavioralSimulation" ns0:seqID="2" />
+      <ns0:association ns0:name="PostMapSimulation" ns0:seqID="110" />
+      <ns0:association ns0:name="PostRouteSimulation" ns0:seqID="110" />
+      <ns0:association ns0:name="PostTranslateSimulation" ns0:seqID="110" />
+    </ns0:file>
+    <ns0:file ns0:name="alu_8bit.vhd" ns0:type="FILE_VHDL">
+      <ns0:association ns0:name="Implementation" ns0:seqID="111" />
+    </ns0:file>
+    <ns0:file ns0:name="alu_8bit_tb.vhd" ns0:type="FILE_VHDL">
+      <ns0:association ns0:name="BehavioralSimulation" ns0:seqID="3" />
+    </ns0:file>
+  </ns0:files>
+  <ns0:properties>
+    <ns0:property ns0:name="AES Initial Vector spartan6" ns0:value="" ns0:valueState="default" />
+    <ns0:property ns0:name="AES Key (Hex String) spartan6" ns0:value="" ns0:valueState="default" />
+    <ns0:property ns0:name="Add I/O Buffers" ns0:value="true" ns0:valueState="default" />
+    <ns0:property ns0:name="Allow Logic Optimization Across Hierarchy" ns0:value="false" ns0:valueState="default" />
+    <ns0:property ns0:name="Allow SelectMAP Pins to Persist" ns0:value="false" ns0:valueState="default" />
+    <ns0:property ns0:name="Allow Unexpanded Blocks" ns0:value="false" ns0:valueState="default" />
+    <ns0:property ns0:name="Allow Unmatched LOC Constraints" ns0:value="false" ns0:valueState="default" />
+    <ns0:property ns0:name="Allow Unmatched Timing Group Constraints" ns0:value="false" ns0:valueState="default" />
+    <ns0:property ns0:name="Analysis Effort Level" ns0:value="Standard" ns0:valueState="default" />
+    <ns0:property ns0:name="Asynchronous To Synchronous" ns0:value="false" ns0:valueState="default" />
+    <ns0:property ns0:name="Auto Implementation Compile Order" ns0:value="true" ns0:valueState="default" />
+    <ns0:property ns0:name="Auto Implementation Top" ns0:value="false" ns0:valueState="non-default" />
+    <ns0:property ns0:name="Automatic BRAM Packing" ns0:value="false" ns0:valueState="default" />
+    <ns0:property ns0:name="Automatically Insert glbl Module in the Netlist" ns0:value="true" ns0:valueState="default" />
+    <ns0:property ns0:name="Automatically Run Generate Target PROM/ACE File" ns0:value="false" ns0:valueState="default" />
+    <ns0:property ns0:name="BRAM Utilization Ratio" ns0:value="100" ns0:valueState="default" />
+    <ns0:property ns0:name="Bring Out Global Set/Reset Net as a Port" ns0:value="false" ns0:valueState="default" />
+    <ns0:property ns0:name="Bring Out Global Tristate Net as a Port" ns0:value="false" ns0:valueState="default" />
+    <ns0:property ns0:name="Bus Delimiter" ns0:value="&lt;&gt;" ns0:valueState="default" />
+    <ns0:property ns0:name="Case" ns0:value="Maintain" ns0:valueState="default" />
+    <ns0:property ns0:name="Case Implementation Style" ns0:value="None" ns0:valueState="default" />
+    <ns0:property ns0:name="Change Device Speed To" ns0:value="-3" ns0:valueState="default" />
+    <ns0:property ns0:name="Change Device Speed To Post Trace" ns0:value="-3" ns0:valueState="default" />
+    <ns0:property ns0:name="Combinatorial Logic Optimization" ns0:value="false" ns0:valueState="default" />
+    <ns0:property ns0:name="Compile EDK Simulation Library" ns0:value="true" ns0:valueState="default" />
+    <ns0:property ns0:name="Compile SIMPRIM (Timing) Simulation Library" ns0:value="true" ns0:valueState="default" />
+    <ns0:property ns0:name="Compile UNISIM (Functional) Simulation Library" ns0:value="true" ns0:valueState="default" />
+    <ns0:property ns0:name="Compile XilinxCoreLib (CORE Generator) Simulation Library" ns0:value="true" ns0:valueState="default" />
+    <ns0:property ns0:name="Compile for HDL Debugging" ns0:value="true" ns0:valueState="default" />
+    <ns0:property ns0:name="Configuration Clk (Configuration Pins)" ns0:value="Pull Up" ns0:valueState="default" />
+    <ns0:property ns0:name="Configuration Pin Done" ns0:value="Pull Up" ns0:valueState="default" />
+    <ns0:property ns0:name="Configuration Pin M0" ns0:value="Pull Up" ns0:valueState="default" />
+    <ns0:property ns0:name="Configuration Pin M1" ns0:value="Pull Up" ns0:valueState="default" />
+    <ns0:property ns0:name="Configuration Pin M2" ns0:value="Pull Up" ns0:valueState="default" />
+    <ns0:property ns0:name="Configuration Pin Program" ns0:value="Pull Up" ns0:valueState="default" />
+    <ns0:property ns0:name="Configuration Rate spartan6" ns0:value="2" ns0:valueState="default" />
+    <ns0:property ns0:name="Correlate Output to Input Design" ns0:value="false" ns0:valueState="default" />
+    <ns0:property ns0:name="Create ASCII Configuration File" ns0:value="false" ns0:valueState="default" />
+    <ns0:property ns0:name="Create Binary Configuration File" ns0:value="false" ns0:valueState="default" />
+    <ns0:property ns0:name="Create Bit File" ns0:value="true" ns0:valueState="default" />
+    <ns0:property ns0:name="Create I/O Pads from Ports" ns0:value="false" ns0:valueState="default" />
+    <ns0:property ns0:name="Create IEEE 1532 Configuration File spartan6" ns0:value="false" ns0:valueState="default" />
+    <ns0:property ns0:name="Create Logic Allocation File" ns0:value="false" ns0:valueState="default" />
+    <ns0:property ns0:name="Create Mask File" ns0:value="false" ns0:valueState="default" />
+    <ns0:property ns0:name="Create ReadBack Data Files" ns0:value="false" ns0:valueState="default" />
+    <ns0:property ns0:name="Cross Clock Analysis" ns0:value="false" ns0:valueState="default" />
+    <ns0:property ns0:name="DSP Utilization Ratio" ns0:value="100" ns0:valueState="default" />
+    <ns0:property ns0:name="Delay Values To Be Read from SDF" ns0:value="Setup Time" ns0:valueState="default" />
+    <ns0:property ns0:name="Device" ns0:value="xc6slx4" ns0:valueState="default" />
+    <ns0:property ns0:name="Device Family" ns0:value="Spartan6" ns0:valueState="non-default" />
+    <ns0:property ns0:name="Device Speed Grade/Select ABS Minimum" ns0:value="-3" ns0:valueState="default" />
+    <ns0:property ns0:name="Disable Detailed Package Model Insertion" ns0:value="false" ns0:valueState="default" />
+    <ns0:property ns0:name="Do Not Escape Signal and Instance Names in Netlist" ns0:value="false" ns0:valueState="default" />
+    <ns0:property ns0:name="Done (Output Events)" ns0:value="Default (4)" ns0:valueState="default" />
+    <ns0:property ns0:name="Drive Awake Pin During Suspend/Wake Sequence spartan6" ns0:value="false" ns0:valueState="default" />
+    <ns0:property ns0:name="Drive Done Pin High" ns0:value="false" ns0:valueState="default" />
+    <ns0:property ns0:name="Enable BitStream Compression" ns0:value="false" ns0:valueState="default" />
+    <ns0:property ns0:name="Enable Cyclic Redundancy Checking (CRC) spartan6" ns0:value="true" ns0:valueState="default" />
+    <ns0:property ns0:name="Enable Debugging of Serial Mode BitStream" ns0:value="false" ns0:valueState="default" />
+    <ns0:property ns0:name="Enable External Master Clock spartan6" ns0:value="false" ns0:valueState="default" />
+    <ns0:property ns0:name="Enable Hardware Co-Simulation" ns0:value="false" ns0:valueState="default" />
+    <ns0:property ns0:name="Enable Internal Done Pipe" ns0:value="true" ns0:valueState="non-default" />
+    <ns0:property ns0:name="Enable Message Filtering" ns0:value="false" ns0:valueState="default" />
+    <ns0:property ns0:name="Enable Multi-Pin Wake-Up Suspend Mode spartan6" ns0:value="false" ns0:valueState="default" />
+    <ns0:property ns0:name="Enable Multi-Threading" ns0:value="Off" ns0:valueState="default" />
+    <ns0:property ns0:name="Enable Multi-Threading par spartan6" ns0:value="Off" ns0:valueState="default" />
+    <ns0:property ns0:name="Enable Outputs (Output Events)" ns0:value="Default (5)" ns0:valueState="default" />
+    <ns0:property ns0:name="Enable Suspend/Wake Global Set/Reset spartan6" ns0:value="false" ns0:valueState="default" />
+    <ns0:property ns0:name="Encrypt Bitstream spartan6" ns0:value="false" ns0:valueState="default" />
+    <ns0:property ns0:name="Encrypt Key Select spartan6" ns0:value="BBRAM" ns0:valueState="default" />
+    <ns0:property ns0:name="Equivalent Register Removal Map" ns0:value="true" ns0:valueState="default" />
+    <ns0:property ns0:name="Equivalent Register Removal XST" ns0:value="true" ns0:valueState="default" />
+    <ns0:property ns0:name="Essential Bits" ns0:value="false" ns0:valueState="default" />
+    <ns0:property ns0:name="Evaluation Development Board" ns0:value="None Specified" ns0:valueState="default" />
+    <ns0:property ns0:name="Exclude Compilation of Deprecated EDK Cores" ns0:value="true" ns0:valueState="default" />
+    <ns0:property ns0:name="Exclude Compilation of EDK Sub-Libraries" ns0:value="false" ns0:valueState="default" />
+    <ns0:property ns0:name="Extra Cost Tables Map" ns0:value="0" ns0:valueState="default" />
+    <ns0:property ns0:name="Extra Effort (Highest PAR level only)" ns0:value="None" ns0:valueState="default" />
+    <ns0:property ns0:name="FPGA Start-Up Clock" ns0:value="CCLK" ns0:valueState="default" />
+    <ns0:property ns0:name="FSM Encoding Algorithm" ns0:value="Auto" ns0:valueState="default" />
+    <ns0:property ns0:name="FSM Style" ns0:value="LUT" ns0:valueState="default" />
+    <ns0:property ns0:name="Filter Files From Compile Order" ns0:value="true" ns0:valueState="default" />
+    <ns0:property ns0:name="Flatten Output Netlist" ns0:value="false" ns0:valueState="default" />
+    <ns0:property ns0:name="Functional Model Target Language ArchWiz" ns0:value="VHDL" ns0:valueState="default" />
+    <ns0:property ns0:name="Functional Model Target Language Coregen" ns0:value="VHDL" ns0:valueState="default" />
+    <ns0:property ns0:name="Functional Model Target Language Schematic" ns0:value="VHDL" ns0:valueState="default" />
+    <ns0:property ns0:name="GTS Cycle During Suspend/Wakeup Sequence spartan6" ns0:value="4" ns0:valueState="default" />
+    <ns0:property ns0:name="GWE Cycle During Suspend/Wakeup Sequence spartan6" ns0:value="5" ns0:valueState="default" />
+    <ns0:property ns0:name="Generate Architecture Only (No Entity Declaration)" ns0:value="false" ns0:valueState="default" />
+    <ns0:property ns0:name="Generate Asynchronous Delay Report" ns0:value="false" ns0:valueState="default" />
+    <ns0:property ns0:name="Generate Clock Region Report" ns0:value="false" ns0:valueState="default" />
+    <ns0:property ns0:name="Generate Constraints Interaction Report" ns0:value="false" ns0:valueState="default" />
+    <ns0:property ns0:name="Generate Constraints Interaction Report Post Trace" ns0:value="false" ns0:valueState="default" />
+    <ns0:property ns0:name="Generate Datasheet Section" ns0:value="true" ns0:valueState="default" />
+    <ns0:property ns0:name="Generate Datasheet Section Post Trace" ns0:value="true" ns0:valueState="default" />
+    <ns0:property ns0:name="Generate Detailed MAP Report" ns0:value="false" ns0:valueState="default" />
+    <ns0:property ns0:name="Generate Multiple Hierarchical Netlist Files" ns0:value="false" ns0:valueState="default" />
+    <ns0:property ns0:name="Generate Post-Place &amp; Route Power Report" ns0:value="false" ns0:valueState="default" />
+    <ns0:property ns0:name="Generate Post-Place &amp; Route Simulation Model" ns0:value="false" ns0:valueState="default" />
+    <ns0:property ns0:name="Generate RTL Schematic" ns0:value="Yes" ns0:valueState="default" />
+    <ns0:property ns0:name="Generate SAIF File for Power Optimization/Estimation Par" ns0:value="false" ns0:valueState="default" />
+    <ns0:property ns0:name="Generate Testbench File" ns0:value="false" ns0:valueState="default" />
+    <ns0:property ns0:name="Generate Timegroups Section" ns0:value="false" ns0:valueState="default" />
+    <ns0:property ns0:name="Generate Timegroups Section Post Trace" ns0:value="false" ns0:valueState="default" />
+    <ns0:property ns0:name="Generics, Parameters" ns0:value="" ns0:valueState="default" />
+    <ns0:property ns0:name="Global Optimization Goal" ns0:value="AllClockNets" ns0:valueState="default" />
+    <ns0:property ns0:name="Global Optimization map spartan6" ns0:value="Off" ns0:valueState="default" />
+    <ns0:property ns0:name="Global Set/Reset Port Name" ns0:value="GSR_PORT" ns0:valueState="default" />
+    <ns0:property ns0:name="Global Tristate Port Name" ns0:value="GTS_PORT" ns0:valueState="default" />
+    <ns0:property ns0:name="Hierarchy Separator" ns0:value="/" ns0:valueState="default" />
+    <ns0:property ns0:name="ISim UUT Instance Name" ns0:value="UUT" ns0:valueState="default" />
+    <ns0:property ns0:name="Ignore User Timing Constraints Map" ns0:value="false" ns0:valueState="default" />
+    <ns0:property ns0:name="Ignore User Timing Constraints Par" ns0:value="false" ns0:valueState="default" />
+    <ns0:property ns0:name="Implementation Top" ns0:value="Architecture|register_8bit|Behavioral" ns0:valueState="non-default" />
+    <ns0:property ns0:name="Implementation Top File" ns0:value="reg_8bit.vhd" ns0:valueState="non-default" />
+    <ns0:property ns0:name="Implementation Top Instance Path" ns0:value="/register_8bit" ns0:valueState="non-default" />
+    <ns0:property ns0:name="Include 'uselib Directive in Verilog File" ns0:value="false" ns0:valueState="default" />
+    <ns0:property ns0:name="Include SIMPRIM Models in Verilog File" ns0:value="false" ns0:valueState="default" />
+    <ns0:property ns0:name="Include UNISIM Models in Verilog File" ns0:value="false" ns0:valueState="default" />
+    <ns0:property ns0:name="Include sdf_annotate task in Verilog File" ns0:value="true" ns0:valueState="default" />
+    <ns0:property ns0:name="Incremental Compilation" ns0:value="true" ns0:valueState="default" />
+    <ns0:property ns0:name="Insert Buffers to Prevent Pulse Swallowing" ns0:value="true" ns0:valueState="default" />
+    <ns0:property ns0:name="Instantiation Template Target Language Xps" ns0:value="VHDL" ns0:valueState="default" />
+    <ns0:property ns0:name="JTAG Pin TCK" ns0:value="Pull Up" ns0:valueState="default" />
+    <ns0:property ns0:name="JTAG Pin TDI" ns0:value="Pull Up" ns0:valueState="default" />
+    <ns0:property ns0:name="JTAG Pin TDO" ns0:value="Pull Up" ns0:valueState="default" />
+    <ns0:property ns0:name="JTAG Pin TMS" ns0:value="Pull Up" ns0:valueState="default" />
+    <ns0:property ns0:name="Keep Hierarchy" ns0:value="No" ns0:valueState="default" />
+    <ns0:property ns0:name="LUT Combining Map" ns0:value="Off" ns0:valueState="default" />
+    <ns0:property ns0:name="LUT Combining Xst" ns0:value="Auto" ns0:valueState="default" />
+    <ns0:property ns0:name="Language" ns0:value="VHDL" ns0:valueState="default" />
+    <ns0:property ns0:name="Last Applied Goal" ns0:value="Balanced" ns0:valueState="default" />
+    <ns0:property ns0:name="Last Applied Strategy" ns0:value="Xilinx Default (unlocked)" ns0:valueState="default" />
+    <ns0:property ns0:name="Last Unlock Status" ns0:value="false" ns0:valueState="default" />
+    <ns0:property ns0:name="Launch SDK after Export" ns0:value="true" ns0:valueState="default" />
+    <ns0:property ns0:name="Library for Verilog Sources" ns0:value="" ns0:valueState="default" />
+    <ns0:property ns0:name="Load glbl" ns0:value="true" ns0:valueState="default" />
+    <ns0:property ns0:name="Manual Implementation Compile Order" ns0:value="false" ns0:valueState="default" />
+    <ns0:property ns0:name="Map Slice Logic into Unused Block RAMs" ns0:value="false" ns0:valueState="default" />
+    <ns0:property ns0:name="Mask Pins for Multi-Pin Wake-Up Suspend Mode spartan6" ns0:value="0x00" ns0:valueState="default" />
+    <ns0:property ns0:name="Max Fanout" ns0:value="100000" ns0:valueState="default" />
+    <ns0:property ns0:name="Maximum Compression" ns0:value="false" ns0:valueState="default" />
+    <ns0:property ns0:name="Maximum Number of Lines in Report" ns0:value="1000" ns0:valueState="default" />
+    <ns0:property ns0:name="Maximum Signal Name Length" ns0:value="20" ns0:valueState="default" />
+    <ns0:property ns0:name="Move First Flip-Flop Stage" ns0:value="true" ns0:valueState="default" />
+    <ns0:property ns0:name="Move Last Flip-Flop Stage" ns0:value="true" ns0:valueState="default" />
+    <ns0:property ns0:name="MultiBoot: Insert IPROG CMD in the Bitfile spartan6" ns0:value="Enable" ns0:valueState="default" />
+    <ns0:property ns0:name="MultiBoot: Next Configuration Mode spartan6" ns0:value="001" ns0:valueState="default" />
+    <ns0:property ns0:name="MultiBoot: Starting Address for Golden Configuration spartan6" ns0:value="0x00000000" ns0:valueState="default" />
+    <ns0:property ns0:name="MultiBoot: Starting Address for Next Configuration spartan6" ns0:value="0x00000000" ns0:valueState="default" />
+    <ns0:property ns0:name="MultiBoot: Use New Mode for Next Configuration spartan6" ns0:value="true" ns0:valueState="default" />
+    <ns0:property ns0:name="MultiBoot: User-Defined Register for Failsafe Scheme spartan6" ns0:value="0x0000" ns0:valueState="default" />
+    <ns0:property ns0:name="Netlist Hierarchy" ns0:value="As Optimized" ns0:valueState="default" />
+    <ns0:property ns0:name="Netlist Translation Type" ns0:value="Timestamp" ns0:valueState="default" />
+    <ns0:property ns0:name="Number of Clock Buffers" ns0:value="16" ns0:valueState="default" />
+    <ns0:property ns0:name="Number of Paths in Error/Verbose Report" ns0:value="3" ns0:valueState="default" />
+    <ns0:property ns0:name="Number of Paths in Error/Verbose Report Post Trace" ns0:value="3" ns0:valueState="default" />
+    <ns0:property ns0:name="Optimization Effort spartan6" ns0:value="Normal" ns0:valueState="default" />
+    <ns0:property ns0:name="Optimization Goal" ns0:value="Speed" ns0:valueState="default" />
+    <ns0:property ns0:name="Optimize Instantiated Primitives" ns0:value="false" ns0:valueState="default" />
+    <ns0:property ns0:name="Other Bitgen Command Line Options" ns0:value="" ns0:valueState="default" />
+    <ns0:property ns0:name="Other Bitgen Command Line Options spartan6" ns0:value="" ns0:valueState="default" />
+    <ns0:property ns0:name="Other Compiler Options" ns0:value="" ns0:valueState="default" />
+    <ns0:property ns0:name="Other Compiler Options Map" ns0:value="" ns0:valueState="default" />
+    <ns0:property ns0:name="Other Compiler Options Par" ns0:value="" ns0:valueState="default" />
+    <ns0:property ns0:name="Other Compiler Options Translate" ns0:value="" ns0:valueState="default" />
+    <ns0:property ns0:name="Other Compxlib Command Line Options" ns0:value="" ns0:valueState="default" />
+    <ns0:property ns0:name="Other Map Command Line Options" ns0:value="" ns0:valueState="default" />
+    <ns0:property ns0:name="Other NETGEN Command Line Options" ns0:value="" ns0:valueState="default" />
+    <ns0:property ns0:name="Other Ngdbuild Command Line Options" ns0:value="" ns0:valueState="default" />
+    <ns0:property ns0:name="Other Place &amp; Route Command Line Options" ns0:value="" ns0:valueState="default" />
+    <ns0:property ns0:name="Other Simulator Commands Behavioral" ns0:value="" ns0:valueState="default" />
+    <ns0:property ns0:name="Other Simulator Commands Post-Map" ns0:value="" ns0:valueState="default" />
+    <ns0:property ns0:name="Other Simulator Commands Post-Route" ns0:value="" ns0:valueState="default" />
+    <ns0:property ns0:name="Other Simulator Commands Post-Translate" ns0:value="" ns0:valueState="default" />
+    <ns0:property ns0:name="Other XPWR Command Line Options" ns0:value="" ns0:valueState="default" />
+    <ns0:property ns0:name="Other XST Command Line Options" ns0:value="" ns0:valueState="default" />
+    <ns0:property ns0:name="Output Extended Identifiers" ns0:value="false" ns0:valueState="default" />
+    <ns0:property ns0:name="Output File Name" ns0:value="register_8bit" ns0:valueState="default" />
+    <ns0:property ns0:name="Overwrite Compiled Libraries" ns0:value="false" ns0:valueState="default" />
+    <ns0:property ns0:name="Overwrite Existing Symbol" ns0:value="false" ns0:valueState="default" />
+    <ns0:property ns0:name="Pack I/O Registers into IOBs" ns0:value="Auto" ns0:valueState="default" />
+    <ns0:property ns0:name="Pack I/O Registers/Latches into IOBs" ns0:value="Off" ns0:valueState="default" />
+    <ns0:property ns0:name="Package" ns0:value="tqg144" ns0:valueState="default" />
+    <ns0:property ns0:name="Perform Advanced Analysis" ns0:value="false" ns0:valueState="default" />
+    <ns0:property ns0:name="Perform Advanced Analysis Post Trace" ns0:value="false" ns0:valueState="default" />
+    <ns0:property ns0:name="Place &amp; Route Effort Level (Overall)" ns0:value="High" ns0:valueState="default" />
+    <ns0:property ns0:name="Place And Route Mode" ns0:value="Normal Place and Route" ns0:valueState="default" />
+    <ns0:property ns0:name="Place MultiBoot Settings into Bitstream spartan6" ns0:value="false" ns0:valueState="default" />
+    <ns0:property ns0:name="Placer Effort Level Map" ns0:value="High" ns0:valueState="default" />
+    <ns0:property ns0:name="Placer Extra Effort Map" ns0:value="None" ns0:valueState="default" />
+    <ns0:property ns0:name="Port to be used" ns0:value="Auto - default" ns0:valueState="default" />
+    <ns0:property ns0:name="Post Map Simulation Model Name" ns0:value="register_8bit_map.vhd" ns0:valueState="default" />
+    <ns0:property ns0:name="Post Place &amp; Route Simulation Model Name" ns0:value="register_8bit_timesim.vhd" ns0:valueState="default" />
+    <ns0:property ns0:name="Post Synthesis Simulation Model Name" ns0:value="register_8bit_synthesis.vhd" ns0:valueState="default" />
+    <ns0:property ns0:name="Post Translate Simulation Model Name" ns0:value="register_8bit_translate.vhd" ns0:valueState="default" />
+    <ns0:property ns0:name="Power Reduction Map spartan6" ns0:value="Off" ns0:valueState="default" />
+    <ns0:property ns0:name="Power Reduction Par" ns0:value="false" ns0:valueState="default" />
+    <ns0:property ns0:name="Power Reduction Xst" ns0:value="false" ns0:valueState="default" />
+    <ns0:property ns0:name="Preferred Language" ns0:value="VHDL" ns0:valueState="non-default" />
+    <ns0:property ns0:name="Produce Verbose Report" ns0:value="false" ns0:valueState="default" />
+    <ns0:property ns0:name="Project Description" ns0:value="" ns0:valueState="default" />
+    <ns0:property ns0:name="Property Specification in Project File" ns0:value="Store all values" ns0:valueState="default" />
+    <ns0:property ns0:name="RAM Extraction" ns0:value="true" ns0:valueState="default" />
+    <ns0:property ns0:name="RAM Style" ns0:value="Auto" ns0:valueState="default" />
+    <ns0:property ns0:name="ROM Extraction" ns0:value="true" ns0:valueState="default" />
+    <ns0:property ns0:name="ROM Style" ns0:value="Auto" ns0:valueState="default" />
+    <ns0:property ns0:name="Read Cores" ns0:value="true" ns0:valueState="default" />
+    <ns0:property ns0:name="Reduce Control Sets" ns0:value="Auto" ns0:valueState="default" />
+    <ns0:property ns0:name="Regenerate Core" ns0:value="Under Current Project Setting" ns0:valueState="default" />
+    <ns0:property ns0:name="Register Balancing" ns0:value="No" ns0:valueState="default" />
+    <ns0:property ns0:name="Register Duplication Map" ns0:value="Off" ns0:valueState="default" />
+    <ns0:property ns0:name="Register Duplication Xst" ns0:value="true" ns0:valueState="default" />
+    <ns0:property ns0:name="Register Ordering spartan6" ns0:value="4" ns0:valueState="default" />
+    <ns0:property ns0:name="Release Write Enable (Output Events)" ns0:value="Default (6)" ns0:valueState="default" />
+    <ns0:property ns0:name="Rename Design Instance in Testbench File to" ns0:value="UUT" ns0:valueState="default" />
+    <ns0:property ns0:name="Rename Top Level Architecture To" ns0:value="Structure" ns0:valueState="default" />
+    <ns0:property ns0:name="Rename Top Level Entity to" ns0:value="register_8bit" ns0:valueState="default" />
+    <ns0:property ns0:name="Rename Top Level Module To" ns0:value="" ns0:valueState="default" />
+    <ns0:property ns0:name="Report Fastest Path(s) in Each Constraint" ns0:value="true" ns0:valueState="default" />
+    <ns0:property ns0:name="Report Fastest Path(s) in Each Constraint Post Trace" ns0:value="true" ns0:valueState="default" />
+    <ns0:property ns0:name="Report Paths by Endpoint" ns0:value="3" ns0:valueState="default" />
+    <ns0:property ns0:name="Report Paths by Endpoint Post Trace" ns0:value="3" ns0:valueState="default" />
+    <ns0:property ns0:name="Report Type" ns0:value="Verbose Report" ns0:valueState="default" />
+    <ns0:property ns0:name="Report Type Post Trace" ns0:value="Verbose Report" ns0:valueState="default" />
+    <ns0:property ns0:name="Report Unconstrained Paths" ns0:value="" ns0:valueState="default" />
+    <ns0:property ns0:name="Report Unconstrained Paths Post Trace" ns0:value="" ns0:valueState="default" />
+    <ns0:property ns0:name="Reset On Configuration Pulse Width" ns0:value="100" ns0:valueState="default" />
+    <ns0:property ns0:name="Resource Sharing" ns0:value="true" ns0:valueState="default" />
+    <ns0:property ns0:name="Retain Hierarchy" ns0:value="true" ns0:valueState="default" />
+    <ns0:property ns0:name="Retry Configuration if CRC Error Occurs spartan6" ns0:value="false" ns0:valueState="default" />
+    <ns0:property ns0:name="Revision Select" ns0:value="00" ns0:valueState="default" />
+    <ns0:property ns0:name="Revision Select Tristate" ns0:value="Disable" ns0:valueState="default" />
+    <ns0:property ns0:name="Run Design Rules Checker (DRC)" ns0:value="true" ns0:valueState="default" />
+    <ns0:property ns0:name="Run for Specified Time" ns0:value="true" ns0:valueState="default" />
+    <ns0:property ns0:name="Run for Specified Time Map" ns0:value="true" ns0:valueState="default" />
+    <ns0:property ns0:name="Run for Specified Time Par" ns0:value="true" ns0:valueState="default" />
+    <ns0:property ns0:name="Run for Specified Time Translate" ns0:value="true" ns0:valueState="default" />
+    <ns0:property ns0:name="Safe Implementation" ns0:value="No" ns0:valueState="default" />
+    <ns0:property ns0:name="Security" ns0:value="Enable Readback and Reconfiguration" ns0:valueState="default" />
+    <ns0:property ns0:name="Selected Module Instance Name" ns0:value="/register_8bit_tb" ns0:valueState="non-default" />
+    <ns0:property ns0:name="Selected Simulation Root Source Node Behavioral" ns0:value="work.register_8bit_tb" ns0:valueState="non-default" />
+    <ns0:property ns0:name="Selected Simulation Root Source Node Post-Map" ns0:value="" ns0:valueState="default" />
+    <ns0:property ns0:name="Selected Simulation Root Source Node Post-Route" ns0:value="" ns0:valueState="default" />
+    <ns0:property ns0:name="Selected Simulation Root Source Node Post-Translate" ns0:value="" ns0:valueState="default" />
+    <ns0:property ns0:name="Selected Simulation Source Node" ns0:value="UUT" ns0:valueState="default" />
+    <ns0:property ns0:name="Set SPI Configuration Bus Width spartan6" ns0:value="1" ns0:valueState="default" />
+    <ns0:property ns0:name="Setup External Master Clock Division spartan6" ns0:value="1" ns0:valueState="default" />
+    <ns0:property ns0:name="Shift Register Extraction" ns0:value="true" ns0:valueState="default" />
+    <ns0:property ns0:name="Shift Register Minimum Size spartan6" ns0:value="2" ns0:valueState="default" />
+    <ns0:property ns0:name="Show All Models" ns0:value="false" ns0:valueState="default" />
+    <ns0:property ns0:name="Simulation Model Target" ns0:value="VHDL" ns0:valueState="default" />
+    <ns0:property ns0:name="Simulation Run Time ISim" ns0:value="1000 ns" ns0:valueState="default" />
+    <ns0:property ns0:name="Simulation Run Time Map" ns0:value="1000 ns" ns0:valueState="default" />
+    <ns0:property ns0:name="Simulation Run Time Par" ns0:value="1000 ns" ns0:valueState="default" />
+    <ns0:property ns0:name="Simulation Run Time Translate" ns0:value="1000 ns" ns0:valueState="default" />
+    <ns0:property ns0:name="Simulator" ns0:value="ISim (VHDL/Verilog)" ns0:valueState="default" />
+    <ns0:property ns0:name="Slice Utilization Ratio" ns0:value="100" ns0:valueState="default" />
+    <ns0:property ns0:name="Specify 'define Macro Name and Value" ns0:value="" ns0:valueState="default" />
+    <ns0:property ns0:name="Specify Top Level Instance Names Behavioral" ns0:value="work.register_8bit_tb" ns0:valueState="default" />
+    <ns0:property ns0:name="Specify Top Level Instance Names Post-Map" ns0:value="Default" ns0:valueState="default" />
+    <ns0:property ns0:name="Specify Top Level Instance Names Post-Route" ns0:value="Default" ns0:valueState="default" />
+    <ns0:property ns0:name="Specify Top Level Instance Names Post-Translate" ns0:value="Default" ns0:valueState="default" />
+    <ns0:property ns0:name="Speed Grade" ns0:value="-3" ns0:valueState="default" />
+    <ns0:property ns0:name="Starting Placer Cost Table (1-100) Map spartan6" ns0:value="1" ns0:valueState="default" />
+    <ns0:property ns0:name="Synthesis Tool" ns0:value="XST (VHDL/Verilog)" ns0:valueState="default" />
+    <ns0:property ns0:name="Target Simulator" ns0:value="Please Specify" ns0:valueState="default" />
+    <ns0:property ns0:name="Timing Mode Map" ns0:value="Performance Evaluation" ns0:valueState="default" />
+    <ns0:property ns0:name="Timing Mode Par" ns0:value="Performance Evaluation" ns0:valueState="default" />
+    <ns0:property ns0:name="Top-Level Module Name in Output Netlist" ns0:value="" ns0:valueState="default" />
+    <ns0:property ns0:name="Top-Level Source Type" ns0:value="HDL" ns0:valueState="default" />
+    <ns0:property ns0:name="Trim Unconnected Signals" ns0:value="true" ns0:valueState="default" />
+    <ns0:property ns0:name="Tristate On Configuration Pulse Width" ns0:value="0" ns0:valueState="default" />
+    <ns0:property ns0:name="Unused IOB Pins" ns0:value="Pull Down" ns0:valueState="default" />
+    <ns0:property ns0:name="Use 64-bit PlanAhead on 64-bit Systems" ns0:value="true" ns0:valueState="default" />
+    <ns0:property ns0:name="Use Clock Enable" ns0:value="Auto" ns0:valueState="default" />
+    <ns0:property ns0:name="Use Custom Project File Behavioral" ns0:value="false" ns0:valueState="default" />
+    <ns0:property ns0:name="Use Custom Project File Post-Map" ns0:value="false" ns0:valueState="default" />
+    <ns0:property ns0:name="Use Custom Project File Post-Route" ns0:value="false" ns0:valueState="default" />
+    <ns0:property ns0:name="Use Custom Project File Post-Translate" ns0:value="false" ns0:valueState="default" />
+    <ns0:property ns0:name="Use Custom Simulation Command File Behavioral" ns0:value="false" ns0:valueState="default" />
+    <ns0:property ns0:name="Use Custom Simulation Command File Map" ns0:value="false" ns0:valueState="default" />
+    <ns0:property ns0:name="Use Custom Simulation Command File Par" ns0:value="false" ns0:valueState="default" />
+    <ns0:property ns0:name="Use Custom Simulation Command File Translate" ns0:value="false" ns0:valueState="default" />
+    <ns0:property ns0:name="Use Custom Waveform Configuration File Behav" ns0:value="false" ns0:valueState="default" />
+    <ns0:property ns0:name="Use Custom Waveform Configuration File Map" ns0:value="false" ns0:valueState="default" />
+    <ns0:property ns0:name="Use Custom Waveform Configuration File Par" ns0:value="false" ns0:valueState="default" />
+    <ns0:property ns0:name="Use Custom Waveform Configuration File Translate" ns0:value="false" ns0:valueState="default" />
+    <ns0:property ns0:name="Use DSP Block spartan6" ns0:value="Auto" ns0:valueState="default" />
+    <ns0:property ns0:name="Use LOC Constraints" ns0:value="true" ns0:valueState="default" />
+    <ns0:property ns0:name="Use RLOC Constraints" ns0:value="Yes" ns0:valueState="default" />
+    <ns0:property ns0:name="Use Smart Guide" ns0:value="false" ns0:valueState="default" />
+    <ns0:property ns0:name="Use Synchronous Reset" ns0:value="Auto" ns0:valueState="default" />
+    <ns0:property ns0:name="Use Synchronous Set" ns0:value="Auto" ns0:valueState="default" />
+    <ns0:property ns0:name="Use Synthesis Constraints File" ns0:value="true" ns0:valueState="default" />
+    <ns0:property ns0:name="User Browsed Strategy Files" ns0:value="" ns0:valueState="default" />
+    <ns0:property ns0:name="UserID Code (8 Digit Hexadecimal)" ns0:value="0xFFFFFFFF" ns0:valueState="default" />
+    <ns0:property ns0:name="VCCAUX Voltage Level spartan6" ns0:value="2.5V" ns0:valueState="default" />
+    <ns0:property ns0:name="VHDL Source Analysis Standard" ns0:value="VHDL-93" ns0:valueState="default" />
+    <ns0:property ns0:name="Value Range Check" ns0:value="false" ns0:valueState="default" />
+    <ns0:property ns0:name="Verilog Macros" ns0:value="" ns0:valueState="default" />
+    <ns0:property ns0:name="Wait for DCM and PLL Lock (Output Events) spartan6" ns0:value="Default (NoWait)" ns0:valueState="default" />
+    <ns0:property ns0:name="Wakeup Clock spartan6" ns0:value="Startup Clock" ns0:valueState="default" />
+    <ns0:property ns0:name="Watchdog Timer Value spartan6" ns0:value="0xFFFF" ns0:valueState="default" />
+    <ns0:property ns0:name="Working Directory" ns0:value="." ns0:valueState="non-default" />
+    <ns0:property ns0:name="Write Timing Constraints" ns0:value="false" ns0:valueState="default" />
+    <ns0:property ns0:name="PROP_BehavioralSimTop" ns0:value="Architecture|register_8bit_tb|Behavioral" ns0:valueState="non-default" />
+    <ns0:property ns0:name="PROP_DesignName" ns0:value="Register_8bit" ns0:valueState="non-default" />
+    <ns0:property ns0:name="PROP_DevFamilyPMName" ns0:value="spartan6" ns0:valueState="default" />
+    <ns0:property ns0:name="PROP_FPGAConfiguration" ns0:value="FPGAConfiguration" ns0:valueState="default" />
+    <ns0:property ns0:name="PROP_PostMapSimTop" ns0:value="" ns0:valueState="default" />
+    <ns0:property ns0:name="PROP_PostParSimTop" ns0:value="" ns0:valueState="default" />
+    <ns0:property ns0:name="PROP_PostSynthSimTop" ns0:value="" ns0:valueState="default" />
+    <ns0:property ns0:name="PROP_PostXlateSimTop" ns0:value="" ns0:valueState="default" />
+    <ns0:property ns0:name="PROP_PreSynthesis" ns0:value="PreSynthesis" ns0:valueState="default" />
+    <ns0:property ns0:name="PROP_intProjectCreationTimestamp" ns0:value="2026-09-03T02:11:33" ns0:valueState="non-default" />
+    <ns0:property ns0:name="PROP_intWbtProjectID" ns0:value="2249B67B3591DA22E327DD71C94913AE" ns0:valueState="non-default" />
+    <ns0:property ns0:name="PROP_intWorkingDirLocWRTProjDir" ns0:value="Same" ns0:valueState="non-default" />
+    <ns0:property ns0:name="PROP_intWorkingDirUsed" ns0:value="No" ns0:valueState="non-default" />
+  </ns0:properties>
+  <ns0:bindings />
+  <ns0:libraries />
+  <ns0:autoManagedFiles>
+    
+    
+    
+    
+    
+    
+  </ns0:autoManagedFiles>
+</ns0:project>

@@ -1,0 +1,20 @@
+Experiment: Design and simulation of an 8-bit register with synchronous reset and load enable.
+
+Objectives:
+1. Design an 8-bit register using VHDL.
+2. Implement rising-edge-triggered storage.
+3. Verify synchronous active-high reset.
+4. Verify load-enable behavior and data retention.
+5. Simulate the design using ISim in Xilinx ISE 14.7.
+
+Expected test cases (Q is checked after the active clock edge):
+RESET LOAD D    Expected Q
+1     0    FF   00
+0     0    AA   00
+0     1    AA   AA
+0     0    55   AA
+0     1    55   55
+0     1    3C   3C
+1     1    FF   00
+
+Conclusion: The design should pass all testbench assertions, demonstrating synchronous reset, load enable, data capture on rising clock edges, and hold behavior when LOAD is low.

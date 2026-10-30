@@ -1,0 +1,19 @@
+LT #4 - 8-bit ALU operation table
+
+Inputs: A[7:0], B[7:0], OP[3:0]
+Outputs: RESULT[7:0], CARRY_OUT
+
+OP     Operation   Result
+0000   ADD         A + B; CARRY_OUT is bit 8 of the 9-bit sum
+0001   SUB         A - B; CARRY_OUT=1 when A >= B (no borrow)
+0010   AND         A AND B
+0011   OR          A OR B
+0100   XOR         A XOR B
+0101   NOT         NOT A
+0110   NAND        A NAND B
+0111   NOR         A NOR B
+1000   XNOR        A XNOR B
+others DEFAULT     RESULT=0 and CARRY_OUT=0
+
+This is a conventional example specification because the assignment prompt
+did not state an ALU width or required operations.
